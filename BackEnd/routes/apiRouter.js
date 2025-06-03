@@ -84,7 +84,8 @@ apiRouter.post("/signup", async (req, res) => {
 
 
 apiRouter.post("/verify", async (req, res) => {
-    const cookie = req.cookies.jwt;
+    const cookie = req.cookies?.jwt;
+    console.log(cookie)
     const user = await verifyCookie(cookie);
     if (user) {
         const item =await user_model.findOne({email: user.email})

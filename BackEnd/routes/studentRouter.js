@@ -16,7 +16,7 @@ const studentRouter = Router();
 
 studentRouter.get("/info", async (req, res) => {
     try {
-        const cookie = req.cookies.jwt;
+        const cookie = req.cookies?.jwt;
         if (!cookie) {
             return res.status(401).json({ message: "No token provided" });
         }
@@ -45,7 +45,7 @@ studentRouter.get("/info", async (req, res) => {
 
 studentRouter.put("/update", async (req, res) => {
     try {
-        const cookie = req.cookies.jwt;
+        const cookie = req.cookies?.jwt;
         if (!cookie) {
             return res.status(401).json({ message: "No token provided" });
         }
