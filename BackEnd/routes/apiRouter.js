@@ -21,8 +21,8 @@ apiRouter.post("/login", async (req, res) => {
         console.log(cookie);
         res.cookie("jwt", cookie, {
             httpOnly: true,
-            secure: true,
-            sameSite: "none",
+            secure: false,
+            sameSite: "lax",
             maxAge: 24 * 60 * 60 * 1000 // 1 day
         });
         res.json({ message: "login successfull", route: "/dashboard" ,avatarURL: user.avatarURL});
@@ -69,8 +69,8 @@ apiRouter.post("/signup", async (req, res) => {
             }, "student");
             res.cookie("jwt", cookie, {
                 httpOnly: true,
-                secure: true,
-                sameSite: "none",
+                secure: false,
+                sameSite: "lax",
                 maxAge: 24 * 60 * 60 * 1000 
             });
             res.json({ message: "user created" });
