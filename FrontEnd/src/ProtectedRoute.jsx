@@ -13,11 +13,16 @@ const ProtectedRoute = ({ children }) => {
       try {
         const res = await axios.post("/api/verify", {}, { withCredentials: true });
         if (res.data.message === "cookie verified") {
+          console.log("user verified , cookie went through to the server")
           setVerified(true);
         } else {
+          
+          console.log("user NOT verified , cookie went through to the server")
           navigate("/");
         }
       } catch (err) {
+        
+        console.log("ERROR , wasnt able to contact the server",err)
         navigate("/");
       } finally {
         setChecking(false);
