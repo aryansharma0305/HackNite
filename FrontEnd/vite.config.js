@@ -7,6 +7,8 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 export default defineConfig({
   plugins: [react(), flowbiteReact()],
   server: {
+    port: 80,
+    host: true,
     proxy: {
       '/api': {
         target: 'http://localhost:5000', // Backend server
