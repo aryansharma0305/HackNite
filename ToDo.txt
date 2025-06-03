@@ -1,0 +1,39 @@
+Must Include-
+1. Leave request with otp for parent verification
+2. Mess
+	a. Display Current Menu
+	b. Rating todays menu
+	c. Canteen ka menu
+3. Complaints
+	a. Housekeeping complaints
+	b. Hostel facilities
+	c. Mess 
+	d. General Complaints
+4. Community posts
+5. Cab sharing
+6. Personel profile
+	a. Name
+	b. Microsoft Auth with personel id
+	c. Parent email id for otp
+	d. Room no
+	e. Phone no.
+	f. Branch
+	g. Roll no
+	h. Birthday(optional)
+	i. 
+7. Extra features that can be added later on, to be included in readme
+
+
+What we may include-
+1. polls in community post
+2. photos-
+    a. post or profile photos
+3. Inclusion of AI chat bot
+4. AI auto complete
+5. Display whosever birthday it is
+
+
+
+
+
+
