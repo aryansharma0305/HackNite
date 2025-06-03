@@ -9,7 +9,7 @@ const PublicProfilePage = () => {
   const [profileData, setProfileData] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
+ 
   useEffect(() => {
     const fetchProfileData = async () => {
       if (!userId) {
