@@ -9,6 +9,7 @@ export default defineConfig({
   server: {
     port: 80,
     host: true,
+    allowedHosts:['aryan.centralindia.cloudapp.azure.com'],
     proxy: {
       '/api': {
         target: 'http://localhost:5000', // Backend server
