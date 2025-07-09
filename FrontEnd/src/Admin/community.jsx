@@ -189,7 +189,7 @@ const A_Community = () => {
       hashtags: ["#Academic", "#StudyGroup"],
       author: {
         name: "Sarah Johnson",
-        avatarURL: "../public/img/default-avatar.png"
+        avatarURL: "../img/default-avatar.png"
       },
       timestamp: "2025-04-19T14:30:00Z",
       upvotes: 15,
@@ -203,7 +203,7 @@ const A_Community = () => {
       hashtags: ["#Event", "#Social", "#MovieNight"],
       author: {
         name: "Michael Chen",
-        avatarURL: "../public/img/default-avatar.png"
+        avatarURL: "../img/default-avatar.png"
       },
       timestamp: "2025-04-19T09:15:00Z",
       upvotes: 32,
@@ -217,7 +217,7 @@ const A_Community = () => {
       hashtags: ["#Announcement", "#Admin", "#Hostel"],
       author: {
         name: "Admin User",
-        avatarURL: "../public/img/default-avatar.png"
+        avatarURL: "../img/default-avatar.png"
       },
       timestamp: "2025-04-18T18:45:00Z",
       upvotes: 45,

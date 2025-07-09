@@ -76,7 +76,7 @@ const PublicProfilePage = () => {
           <div className="bg-slate-900 p-6 rounded-lg shadow-md">
             <div className="flex items-center space-x-6 mb-6">
               <img
-                src={profileData.avatarURL || "../public/img/default-avatar.png"}
+                src={profileData.avatarURL || "../img/default-avatar.png"}
                 alt="Profile"
                 className="w-24 h-24 rounded-full border-4 border-blue-500"
               />

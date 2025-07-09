@@ -169,7 +169,7 @@ const A_Dashboard = () => {
       hashtags: ["#Announcement", "#Admin", "#Hostel"],
       author: {
         name: "Admin User",
-        avatarURL: ".../public/img/default-avatar.png"
+        avatarURL: ".../img/default-avatar.png"
       },
       timestamp: "2025-04-18T18:45:00Z",
       upvotes: 45,
@@ -183,7 +183,7 @@ const A_Dashboard = () => {
       hashtags: ["#Event", "#Social", "#MovieNight"],
       author: {
         name: "Events Committee",
-        avatarURL: ".../public/img/default-avatar.png"
+        avatarURL: ".../img/default-avatar.png"
       },
       timestamp: "2025-04-19T09:15:00Z",
       upvotes: 32,
@@ -197,7 +197,7 @@ const A_Dashboard = () => {
       hashtags: ["#Announcement", "#Admin", "#Facilities"],
       author: {
         name: "Admin User",
-        avatarURL: ".../public/img/default-avatar.png"
+        avatarURL: ".../img/default-avatar.png"
       },
       timestamp: "2025-04-18T10:20:00Z",
       upvotes: 12,
@@ -230,21 +230,21 @@ const A_Dashboard = () => {
     {
       id: 1,
       name: "Rahul Sharma",
-      avatarURL: ".../public/img/default-avatar.png",
+      avatarURL: ".../img/default-avatar.png",
       department: "Computer Science",
       year: 2
     },
     {
       id: 2,
       name: "Priya Patel",
-      avatarURL: ".../public/img/default-avatar.png",
+      avatarURL: ".../img/default-avatar.png",
       department: "Electrical Engineering",
       year: 3
     },
     {
       id: 3,
       name: "Arjun Singh",
-      avatarURL: "../public/img/default-avatar.png",
+      avatarURL: "../img/default-avatar.png",
       department: "Mechanical Engineering",
       year: 4
     }

@@ -257,7 +257,7 @@ const Dashboard = () => {
                           <div className="bg-gray-800 rounded-lg p-4 shadow border border-gray-700">
                             <div className="flex items-start gap-3">
                               <img 
-                                src={post.author.avatarURL|| "../public/img/default-avatar.png"} 
+                                src={post.author.avatarURL|| "../img/default-avatar.png"} 
                                 alt={post.author.name} 
                                 className="w-10 h-10 rounded-full object-cover border-2 border-gray-700"
                               />

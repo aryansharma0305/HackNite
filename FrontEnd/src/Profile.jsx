@@ -43,7 +43,7 @@ const Profile = () => {
             gender: response.data.student.gender,
             profileImage:
               response.data.student.avatarURL ||
-              "../public/img/default-avatar.png",
+              "../img/default-avatar.png",
             roomNo: response.data.student.roomNumber,
             phoneNo: response.data.student.phone,
             branch: response.data.student.batch,
@@ -109,7 +109,7 @@ const Profile = () => {
     setPreviewImage(null);
     setProfileData({
       ...profileData,
-      profileImage: "../public/img/default-avatar.png",
+      profileImage: "../img/default-avatar.png",
     });
     await axios.put(
       "/api/student/update",

@@ -24,7 +24,7 @@ const Admin = () => {
     <div>
       <div className="min-h-screen bg-gray-900 text-white flex flex-col justify-center items-center relative">
         <img
-          src="../public/img/Hostel.jpg"
+          src="../img/Hostel.jpg"
           alt="Hostel"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         />

@@ -128,7 +128,7 @@ const Navbar = ({ onLogout }) => {
                       className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center space-x-2 cursor-pointer"
                     >
                       <img
-                        src={user.avatarURL || '.../public/img/default-avatar.png'}
+                        src={user.avatarURL || '.../img/default-avatar.png'}
                         alt="avatar"
                         className="w-6 h-6 rounded-full"
                       />

@@ -95,7 +95,7 @@ const Signup = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-900 relative overflow-visible text-white">
       <img
-        src="../public/img/Hostel.jpg"
+        src="../img/Hostel.jpg"
         alt="Hostel"
         className="absolute inset-0 w-full h-full object-cover opacity-30"
       />

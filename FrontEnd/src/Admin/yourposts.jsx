@@ -62,7 +62,7 @@ const A_YourPosts = () => {
       hashtags: ["#Event", "#Social", "#MovieNight"],
       author: {
         name: "Current User", 
-        avatarURL: ".../public/img/default-avatar.png"
+        avatarURL: ".../img/default-avatar.png"
       },
       timestamp: "2025-04-19T09:15:00Z",
       upvotes: 32,
@@ -76,7 +76,7 @@ const A_YourPosts = () => {
       hashtags: ["#Question", "#Lost"],
       author: {
         name: "Current User", // This would be the logged-in user
-        avatarURL: "../public/img/default-avatar.png"
+        avatarURL: "../img/default-avatar.png"
       },
       timestamp: "2025-04-17T15:20:00Z",
       upvotes: 3,
