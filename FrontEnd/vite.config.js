@@ -7,9 +7,9 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 export default defineConfig({
   plugins: [react(), flowbiteReact()],
   server: {
-    port: 80,
+    port: 4000,
     host: true,
-    allowedHosts:['aryan.centralindia.cloudapp.azure.com'],
+    allowedHosts:['hms.aryan-sharma.xyz'],
     proxy: {
       '/api': {
         target: 'http://localhost:5000', // Backend server
